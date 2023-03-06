@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pagina principal</title>
+</head>
+<body>
+    <h1 id="inicio">Exemplo de matéria em um blog.</h1>
+    <hr>
+    <h2>Índice</h2>
+    <ul>
+        <li><a href="#surgimento">Surgimento do HTML</a></li>
+        <li><a href="#como-funciona">Como funciona o HTML</a></li>
+        <li><a href="#tags">O que são tags e como funcionam</a></li>
+        <li><a href="#referencias">Referencias</a></li>
+    </ul>
+    <h2 id="surgimento">Surgimento do HTML</h2><small><a href="#inicio"><i>(voltar)</i></a></small>
+    <p>
+        O HTML foi criado em 1991, por Tim Berners-Lee, no CERN (European Council for Nuclear Research) na suíça.
+        Inicialmente o HTML foi projetado para interligar instituições de pesquisa próximas, e compartilhar documentos com facilidade.
+        Em 1992, foi liberada a biblioteca de desenvolvimento WWW ( World Wide Web),
+        uma rede de alcance mundial, que junto com o HTML proporcionou o uso em escala mundial da WEB.</p>
+    
+    <h2 id="como-funciona">Como funciona o HTML</h2><small><a href="#inicio"><i>(voltar)</i></a></small>
+    <p>
+        O HTML é uma linguagem de marcação. Estas linguagens são constituídas de códigos que delimitam conteúdos específicos,
+        segundo uma sintaxe própria. O HTML tem códigos para criar paginas na web. Estes códigos que definem o tipo de letra,
+        qual o tamanho, cor, espaçamento, e vários outros aspectos do site.
+        No início era muito complicado aprender HTML, pois eram muitos comandos para fazer algo simples. 
+        A cada nova versão, o HTML fica mais fácil de utilizar, e adquire mais funções. 
+        Atualmente qualquer pessoa pode acessar a internet a aprender a construir um site básico em questão de horas, 
+        seguindo os passos de tutoriais e aprendendo as funções de cada código.</p>
+    <p>
+        O HTML foi a primeira linguagem de nível mundial, porem não é a única. 
+        Existem muitas outras linguagens destinadas á criação de paginas da web, 
+        porém o HTML ainda prevalece. Atualmente já é possível integrar varias linguagens na mesma pagina da Web,
+        sendo possível usar duas ou mais linguagens no mesmo site.</p>
+    
+    <h2 id="tags">O que são tags e como funcionam</h2><small><a href="#inicio">(voltar)</a></small>
+    <p>As tags são usadas para informar ao navegador a estrutura do site. Ou seja: quando se escreve um código em HTML, 
+       as tags serão interpretadas pelo navegador, produzindo assim a estrutura e o conteúdo visual da página.
+       A principal característica das tags é estarem sempre dentro dos sinais de chevron (sinal de “maior que” e “menor que”), ou seja: < >. 
+       As tags HTML são divididas em dois tipos: as que precisam de fechamento e as que não precisam de fechamento. 
+       As tags que precisam de fechamento possuem a sintaxe <tag> </tag>, já as que não precisam de fechamento possuem como estrutura <tag/>.
+       Além disso, uma mesma tag pode receber um ou mais atributos, que possuirá um valor que modifica sua estrutura ou funcionalidade.</p>
+    <h2>Tags HTML de título</h2>
+    <h1>h1<p></h1>
+    <h2>h2</h2>
+    <h3>h3</h3>   
+    <h4>h4</h4>
+    <h5>h5</h5>
+    <h6>h6</h6>
+ 
+    <h2>Tag strong</h2>
+    <p>O elementoé utilizado em conteúdos que são de  <strong> "grande importância"</strong>, 
+        incluindo coisas de urgentes (como alertas).
+         Podem ser sentenças que são de grande importância para toda a página, ou, 
+         você pode meramente tentar pontuar que algumas palavras são de grande importância, 
+         comparado ao conteúdo próximo.</p>  
+    <h2>Tag mark</h2>
+    <p><mark>A tag <strong>mark</strong> faz uma especie de marcação diferenciada como se fosse de um maraca texto.</mark></p>
+    <h2>Tags para listas ordenadas</h2><a href="#inicio"><i>(voltar)</i></a></small>
+    <p>
+    <p>Usa-se para lista ordenada a tag <b>"ol"</b>.</p>
+    <ol>
+        <li><i>Itálico</i></li>
+        <li><b>Negrito</b></li>
+        <li><u>Sublinhado</u></li>
+    </ol>
+    <h2>Tag para listas não ordenadas</h2><a href="#inicio"><i>(voltar)</i></a></small>
+    <p>
+    <p>Usa-se para lista ordenada a tag <b>"ul"</b>.</p>
+    <ul>
+        <li><i>Itálico</i></li>
+        <li><b>Negrito</b></li>
+        <li><u>Sublinhado</u></li>
+    </ul>
+    <h2>Tag sub</h2><a href="#inicio"><i>(voltar)</i></a></small>
+    <p>
+    <p>O marcador "Subscript Element" ou subscrito é utilizado escrever um texto 
+        com letras menores e com o alinhamento abaixo das que do resto do conteúdo.</p>
+    <p>Por exemplo mostrar o elemento da agua (H<sub>2</sub>O). Há o deslocamento do 2 para baixo.
+
+    <h2>Tag sup</h2><a href="#inicio"><i>(voltar)</i></a></small>
+    <p>
+    <p>Para melhor entendimento essa tag funciona como uma elevação de um expoente.</p>
+    <p>Por exemplo no teorema de pitagoras (<var>a<sup>2</sup></var> + <var>b<sup>2</sup></var> = <var>c<sup>2</sup></var>).</p>
+
+
+    <h2>Tag blockquote </h2><a href="#inicio"><i>(voltar)</i></a></small>
+    <p>
+    <p>Serve para usar sitações grandes.</p>
+    <blockquote cite="https://querobolsa.com.br/revista/
+    citacoes-para-redacao-sobre-tecnologia"> "Um ser humano deve transformar informação em inteligência ou conhecimento.
+    Tendemos a esquecer que nenhum computador jamais fará uma nova pergunta."</blockquote>
+    
+    <h2>Tag font </h2><a href="#inicio"><i>(voltar)</i></a></small>
+    <br>
+    <p>A tag HTML font define o tamanho da fonte, a cor e a face do texto no documento HTML. Como essa tag foi removida no HTML5, é recomendável usar propriedades CSS como font , font-family ,
+         font-size e color para formatar o texto no documento. Essa tag também é comumente chamada de elemento font.</p>
+         <p style="color:red">podemos colorir as palavras coma tag font </p>
+         <p style="font-family:'Courier New'">Assim também podemos alterar as fontes. </p>
+         <h2>Tag del</h2><a href="#inicio"><i>(voltar)</i></a></small>
+         <br>
+    <p>O elemento HTML <del> (ou Elemento HTML de Texto Excluído) representa uma parte do texto que foi excluída de um documento.
+         Este elemento é (não necessariamente) renderizado pelos navegadores com uma linha entre o texto.</p>
+    
+         <h2>Tag abbr</h2><a href="#inicio"><i>(voltar)</i></a></small>
+    <p>O Elemento HTML <b>abbr</b> (ou Elemento de Abreviação HTML) representa uma abreviação e opcionalmente fornece uma descrição completa para ela.
+        Se presente, o atributo title deve conter a descrição completa e apenas ela.</p>
+    
+    <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+    <h2>Tag hr</h2>
+    <p>A tag <b>"hr"</b> é um elemento HTML que representa uma quebra 
+       de linha temática entre elementos HTML.</p>
+    <hr>
+    <p>O <b>"hr"</b> é exibido como uma linha horizontal
+    separando os conteúdos de uma página web.</p>
+
+
+    <h2 id="referencias">Referencias</h2><a href="#inicio"><i>(voltar)</i></a></small><br>
+    <a href="http://www.maikbasso.com.br">Formatando textos com HTML | Maik Basso</a><br>
+    <a href="https://www.infoescola.com/informatica/html">HTML - Informática - InfoEscola</a><br>
+    <a href="https://www.homehost.com.br/blog/tutoriais/tags-html/">Tags HTML: as principais tags para criar sua página HTML</a><br>
+    <a href="https://www.w3schools.com/html/default.asp">w3schools</a>
+</body>
+</html>
